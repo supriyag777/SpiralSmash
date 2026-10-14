@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "groups": {
+    "game-branding": {
+      "name": "Spiral Smash Identity",
+      "order": 20
+    },
+    "player-orb": {
+      "name": "Player Orb",
+      "order": 10
+    }
+  },
+  "bundles": {},
+  "assets": {
+    "assets/models/spiral-smash-orb.glb": {
+      "path": "/manus-storage/game/sha256/01d391701fae68aeb8f7588d06b5bb3f3043da4b0a2cb66a785d901e7d49881b.glb",
+      "sha256": "sha256:01d391701fae68aeb8f7588d06b5bb3f3043da4b0a2cb66a785d901e7d49881b",
+      "size": 3017244,
+      "assetType": "model",
+      "groupId": "player-orb"
+    },
+    "assets/share/favicon-art.png": {
+      "path": "/manus-storage/game/sha256/0b2cfa138dedf98904265759366d30c557113e9ac9a1a40cc79414caa77558c2.png",
+      "sha256": "sha256:0b2cfa138dedf98904265759366d30c557113e9ac9a1a40cc79414caa77558c2",
+      "size": 3421553,
+      "assetType": "image",
+      "groupId": "game-branding"
+    },
+    "assets/share/og-cover.png": {
+      "path": "/manus-storage/game/sha256/7acbfdca8e8af61068d4bb5bb624eab2ee9e010c97aa25c89f4a7598a8b4b924.png",
+      "sha256": "sha256:7acbfdca8e8af61068d4bb5bb624eab2ee9e010c97aa25c89f4a7598a8b4b924",
+      "size": 3638245,
+      "assetType": "image",
+      "groupId": "game-branding"
+    }
+  }
+}
