@@ -6,19 +6,18 @@ Run on Windows
 
 Open PowerShell in the project folder. After unzipping, install dependencies once:
 
-Plain Text
 
 
-pnpm install
+
+      pnpm install
 
 
 
 Start the game:
 
-Plain Text
 
 
-pnpm dev
+      pnpm dev
 
 
 
