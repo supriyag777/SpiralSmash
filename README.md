@@ -1,31 +1,38 @@
-# Spiral Smash
+Spiral Smash
 
-Rotate the 3D tower, guide the ball through gaps, avoid hazards, and chain drops to smash platforms.
+Rotate the tower, guide the ball through gaps, avoid hazards, and chain drops to charge SMASH.
 
-## Run
+Run on Windows
 
-Requires Node.js 22 and pnpm.
+Open PowerShell in the project folder. After unzipping, install dependencies once:
 
-```bash
+Plain Text
+
+
 pnpm install
-pnpm dev -- --host 0.0.0.0 --port 3000
-```
 
-Open http://localhost:3000.
 
-## Controls
 
-`A/D` or arrows, mouse drag, or gamepad to rotate. `Space` starts/restarts; `Esc` pauses. Phones: landscape recommended; use touch buttons.
+Start the game:
 
-## Test
+Plain Text
 
-```bash
-pnpm test
-pnpm build
-pnpm exec playwright install chromium  # once
-pnpm smoke  # after build
-```
 
-## About
+pnpm dev
 
-TypeScript, Three.js, Vite; original AI-generated concepts, icon, cover and orb; procedural tower/debris. English and Chinese; scores are local.
+
+
+Open the Local URL printed by Vite in your browser. Leave PowerShell open while playing. Use pnpm dev for live reload while editing.
+
+Controls
+
+A/D or arrows, mouse drag, or gamepad rotates. Space starts/restarts; Esc pauses. Phones: landscape recommended; use touch buttons.
+
+Tests
+
+Run pnpm test and pnpm build. For browser smoke tests, install Chromium once with pnpm exec playwright install chromium, then run pnpm smoke after the build.
+
+Built with
+
+TypeScript · Three.js · Vite. Original AI-generated concepts, icon, cover and orb; procedural tower/debris. English/Chinese; scores are local.
+
